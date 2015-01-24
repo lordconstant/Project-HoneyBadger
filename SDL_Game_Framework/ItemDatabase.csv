@@ -1,0 +1,525 @@
+ID,Name,Type,SubType
+1,Santa's sword of night (1),Weapon,sword
+2,Sharp mana potion (1),Consumable,mana_potion
+3,Old helm of the earth (1),Armor,helm
+4,Majestic gauntlets of winter (2),Armor,gauntlets
+5,Dull breastplate of night (1),Armor,breastplate
+6,Old breastplate of night (1),Armor,breastplate
+7,Random helm of imaginaton (1),Armor,helm
+8,Godly leggings of ice (1),Armor,leggings
+9,Godly bread (1),Consumable,bread
+10,Doley crossbow of ice (1),Weapon,crossbow
+11,Pointless cake (1),Consumable,cake
+12,Heroic axe of ice (1),Weapon,axe
+13,Silly cherry (1),Consumable,cherry
+14,Majestic helm of the elements (1),Armor,helm
+15,Dull gauntlets of winter (1),Armor,gauntlets
+16,Powerful breastplate of the earth (3),Armor,breastplate
+17,Silly gauntlets of the unicorn (2),Armor,gauntlets
+18,Weak leggings of the earth (1),Armor,leggings
+19,Doley cherry (1),Consumable,cherry
+20,Pathetic breastplate of accuracy (1),Armor,breastplate
+21,Santa's water (1),Consumable,water
+22,Doley mace of night (1),Weapon,mace
+23,Weak staff of the zephyr (2),Weapon,staff
+24,Majestic orange (1),Consumable,orange
+25,Silly breastplate of the elements (1),Armor,breastplate
+26,Santa's breastplate of the zephyr (3),Armor,breastplate
+27,Weak leggings of ice (3),Armor,leggings
+28,Weak gauntlets of accuracy (2),Armor,gauntlets
+29,Doley leggings of the joker (1),Armor,leggings
+30,Majestic gauntlets of night (1),Armor,gauntlets
+31,Santa's treads of ice (3),Armor,treads
+32,Dull treads of winter (2),Armor,treads
+33,Pathetic cherry (1),Consumable,cherry
+34,Dull bow of the zephyr (1),Weapon,bow
+35,Godly cake (1),Consumable,cake
+36,Old helm of accuracy (1),Armor,helm
+37,Santa's treads of accuracy (1),Armor,treads
+38,Random leggings of the storm (1),Armor,leggings
+39,Pointless leggings of ice (1),Armor,leggings
+40,Santa's gauntlets of ice (1),Armor,gauntlets
+41,Heroic apple (1),Consumable,apple
+42,Old leggings of the raider (3),Armor,leggings
+43,Dull milk (1),Consumable,milk
+44,Great wand of the unicorn (1),Weapon,wand
+45,Pointless apple (1),Consumable,apple
+46,Old helm of the elements (2),Armor,helm
+47,Unique gauntlets of the moon (3),Armor,gauntlets
+48,Random breastplate of the elements (1),Armor,breastplate
+49,Godly leggings of night (1),Armor,leggings
+50,Pathetic gauntlets of imaginaton (2),Armor,gauntlets
+51,Powerful staff of the earth (2),Weapon,staff
+52,Pointless beer (1),Consumable,beer
+53,Pointless axe of the stream (1),Weapon,axe
+54,Weak treads of winter (1),Armor,treads
+55,Bendy sword of lightning (1),Weapon,sword
+56,Weak health potion (1),Consumable,health_potion
+57,Dull treads of the unicorn (1),Armor,treads
+58,Old treads of the raider (1),Armor,treads
+59,Unique breastplate of the raider (1),Armor,breastplate
+60,Bendy helm of the elements (1),Armor,helm
+61,Sharp treads of fire (2),Armor,treads
+62,Pathetic leggings of imaginaton (3),Armor,leggings
+63,Doley gauntlets of the gods (1),Armor,gauntlets
+64,Silly staff of ice (1),Weapon,staff
+65,Silly breastplate of the joker (1),Armor,breastplate
+66,Silly bow of winter (1),Weapon,bow
+67,Majestic milk (1),Consumable,milk
+68,Unique treads of ice (1),Armor,treads
+69,Heroic leggings of the earth (1),Armor,leggings
+70,Swift gauntlets of fire (1),Armor,gauntlets
+71,Epic leggings of the raider (1),Armor,leggings
+72,Sharp gauntlets of the gods (1),Armor,gauntlets
+73,Powerful crossbow of the gods (1),Weapon,crossbow
+74,Santa's apple (1),Consumable,apple
+75,Great staff of the stream (1),Weapon,staff
+76,Epic spear of lightning (1),Weapon,spear
+77,Sharp axe of the gods (1),Weapon,axe
+78,Great beer (1),Consumable,beer
+79,Pointless breastplate of the elements (1),Armor,breastplate
+80,Great helm of the gods (1),Armor,helm
+81,Bendy gauntlets of the gods (1),Armor,gauntlets
+82,Weak breastplate of imaginaton (2),Armor,breastplate
+83,Santa's gauntlets of the storm (3),Armor,gauntlets
+84,Old sword of the moon (2),Weapon,sword
+85,Old wand of winter (1),Weapon,wand
+86,Swift leggings of the gods (1),Armor,leggings
+87,Weak mana potion (1),Consumable,mana_potion
+88,Bendy spear of imaginaton (1),Weapon,spear
+89,Silly bread (1),Consumable,bread
+90,Pointless helm of lightning (1),Armor,helm
+91,Random gauntlets of accuracy (1),Armor,gauntlets
+92,Great treads of power (1),Armor,treads
+93,Great breastplate of the moon (1),Armor,breastplate
+94,Weak gauntlets of the unicorn (1),Armor,gauntlets
+95,Silly helm of fire (1),Armor,helm
+96,Powerful axe of the storm (2),Weapon,axe
+97,Godly spear of fire (1),Weapon,spear
+98,Sharp milk (1),Consumable,milk
+99,Dull mace of the earth (1),Weapon,mace
+100,Doley water (1),Consumable,water
+101,Doley breastplate of fire (1),Armor,breastplate
+102,Random treads of imaginaton (1),Armor,treads
+103,Heroic breastplate of night (1),Armor,breastplate
+104,Great leggings of ice (3),Armor,leggings
+105,Bendy breastplate of imaginaton (1),Armor,breastplate
+106,Heroic orange (1),Consumable,orange
+107,Silly mana potion (1),Consumable,mana_potion
+108,Great treads of the stream (2),Armor,treads
+109,Dull bread (1),Consumable,bread
+110,Pathetic staff of the elements (1),Weapon,staff
+111,Powerful beer (1),Consumable,beer
+112,Heroic gauntlets of the mountain (1),Armor,gauntlets
+113,Doley treads of night (2),Armor,treads
+114,Old helm of the earth (2),Armor,helm
+115,Powerful helm of accuracy (3),Armor,helm
+116,Great breastplate of the earth (1),Armor,breastplate
+117,Santa's leggings of the mountain (1),Armor,leggings
+118,Epic sword of the raider (1),Weapon,sword
+119,Sharp orange (1),Consumable,orange
+120,Unique staff of imaginaton (1),Weapon,staff
+121,Dull crossbow of the moon (1),Weapon,crossbow
+122,Random cherry (1),Consumable,cherry
+123,Sharp treads of night (1),Armor,treads
+124,Epic leggings of the elements (3),Armor,leggings
+125,Great gauntlets of the gods (1),Armor,gauntlets
+126,Powerful treads of the thief (3),Armor,treads
+127,Swift breastplate of ice (2),Armor,breastplate
+128,Epic sword of the storm (1),Weapon,sword
+129,Unique sword of the unicorn (1),Weapon,sword
+130,Great gauntlets of the joker (2),Armor,gauntlets
+131,Sharp water (1),Consumable,water
+132,Great sword of the zephyr (1),Weapon,sword
+133,Unique water (1),Consumable,water
+134,Pathetic treads of power (1),Armor,treads
+135,Epic helm of the earth (1),Armor,helm
+136,Majestic leggings of ice (1),Armor,leggings
+137,Swift helm of power (1),Armor,helm
+138,Godly helm of imaginaton (1),Armor,helm
+139,Doley crossbow of the raider (1),Weapon,crossbow
+140,Great breastplate of accuracy (2),Armor,breastplate
+141,Epic breastplate of the storm (1),Armor,breastplate
+142,Weak sword of the moon (1),Weapon,sword
+143,Random orange (1),Consumable,orange
+144,Powerful breastplate of fire (1),Armor,breastplate
+145,Majestic treads of the elements (3),Armor,treads
+146,Pointless gauntlets of fire (1),Armor,gauntlets
+147,Heroic treads of the raider (2),Armor,treads
+148,Heroic treads of fire (1),Armor,treads
+149,Random treads of lightning (1),Armor,treads
+150,Heroic axe of the joker (1),Weapon,axe
+151,Random beer (1),Consumable,beer
+152,Weak staff of the moon (2),Weapon,staff
+153,Sharp health potion (1),Consumable,health_potion
+154,Unique gauntlets of the zephyr (1),Armor,gauntlets
+155,Pointless gauntlets of winter (1),Armor,gauntlets
+156,Pathetic breastplate of the storm (1),Armor,breastplate
+157,Heroic leggings of lightning (1),Armor,leggings
+158,Heroic gauntlets of imaginaton (1),Armor,gauntlets
+159,Unique crossbow of the stream (1),Weapon,crossbow
+160,Unique cake (1),Consumable,cake
+161,Powerful gauntlets of the thief (1),Armor,gauntlets
+162,Heroic crossbow of ice (1),Weapon,crossbow
+163,Great cherry (1),Consumable,cherry
+164,Godly gauntlets of the thief (1),Armor,gauntlets
+165,Random breastplate of ice (1),Armor,breastplate
+166,Swift helm of the zephyr (1),Armor,helm
+167,Weak treads of power (1),Armor,treads
+168,Epic treads of the elements (1),Armor,treads
+169,Godly orange (1),Consumable,orange
+170,Pathetic leggings of the mountain (1),Armor,leggings
+171,Pathetic mana potion (1),Consumable,mana_potion
+172,Doley breastplate of power (2),Armor,breastplate
+173,Great staff of the earth (3),Weapon,staff
+174,Old cherry (1),Consumable,cherry
+175,Random treads of the mountain (1),Armor,treads
+176,Swift breastplate of the mountain (2),Armor,breastplate
+177,Epic helm of the joker (1),Armor,helm
+178,Bendy gauntlets of lightning (1),Armor,gauntlets
+179,Dull helm of power (1),Armor,helm
+180,Sharp treads of winter (1),Armor,treads
+181,Unique milk (1),Consumable,milk
+182,Godly helm of the mountain (1),Armor,helm
+183,Godly breastplate of the joker (1),Armor,breastplate
+184,Santa's sword of accuracy (1),Weapon,sword
+185,Powerful cake (1),Consumable,cake
+186,Swift gauntlets of the stream (2),Armor,gauntlets
+187,Old leggings of lightning (1),Armor,leggings
+188,Silly helm of accuracy (1),Armor,helm
+189,Swift leggings of the unicorn (1),Armor,leggings
+190,Sharp helm of the moon (2),Armor,helm
+191,Unique mana potion (5),Consumable,mana_potion
+192,Doley spear of power (4),Weapon,spear
+193,Epic bow of the storm (5),Weapon,bow
+194,Silly breastplate of imaginaton (4),Armor,breastplate
+195,Santa's wand of the earth (2),Weapon,wand
+196,Epic orange (1),Consumable,orange
+197,Godly helm of the stream (1),Armor,helm
+198,Pathetic leggings of accuracy (1),Armor,leggings
+199,Unique gauntlets of the stream (2),Armor,gauntlets
+200,Majestic leggings of the moon (3),Armor,leggings
+201,Godly mace of the joker (7),Weapon,mace
+202,Powerful cherry (5),Consumable,cherry
+203,Swift cherry (5),Consumable,cherry
+204,Swift spear of the stream (5),Weapon,spear
+205,Sharp crossbow of winter (2),Weapon,crossbow
+206,Silly cake (1),Consumable,cake
+207,Pathetic leggings of the elements (1),Armor,leggings
+208,Swift helm of imaginaton (1),Armor,helm
+209,Sharp leggings of fire (1),Armor,leggings
+210,Random leggings of accuracy (1),Armor,leggings
+211,Dull breastplate of lightning (1),Armor,breastplate
+212,Epic cake (5),Consumable,cake
+213,Weak bow of ice (7),Weapon,bow
+214,Silly crossbow of lightning (4),Weapon,crossbow
+215,Unique staff of the joker (5),Weapon,staff
+216,Sharp spear of the raider (1),Weapon,spear
+217,Godly health potion (1),Consumable,health_potion
+218,Silly treads of fire (1),Armor,treads
+219,Powerful helm of lightning (3),Armor,helm
+220,Doley leggings of accuracy (1),Armor,leggings
+221,Dull leggings of the raider (2),Armor,leggings
+222,Swift leggings of the joker (3),Armor,leggings
+223,Godly staff of the unicorn (1),Weapon,staff
+224,Bendy staff of the stream (1),Weapon,staff
+225,Godly bow of the storm (1),Weapon,bow
+226,Old sword of the raider (3),Weapon,sword
+227,Great axe of the raider (1),Weapon,axe
+228,Silly orange (1),Consumable,orange
+229,Silly helm of ice (3),Armor,helm
+230,Old leggings of lightning (3),Armor,leggings
+231,Dull leggings of the storm (1),Armor,leggings
+232,Unique gauntlets of winter (1),Armor,gauntlets
+233,Epic helm of lightning (3),Armor,helm
+234,Old treads of the storm (1),Armor,treads
+235,Sharp leggings of ice (1),Armor,leggings
+236,Sharp gauntlets of the elements (1),Armor,gauntlets
+237,Godly staff of winter (1),Weapon,staff
+238,Godly wand of the elements (1),Weapon,wand
+239,Unique mana potion (1),Consumable,mana_potion
+240,Majestic gauntlets of the earth (1),Armor,gauntlets
+241,Bendy leggings of night (2),Armor,leggings
+242,Great gauntlets of fire (1),Armor,gauntlets
+243,Unique leggings of winter (1),Armor,leggings
+244,Swift crossbow of the moon (3),Weapon,crossbow
+245,Godly cheese (1),Consumable,cheese
+246,Doley health potion (1),Consumable,health_potion
+247,Heroic gauntlets of the storm (1),Armor,gauntlets
+248,Unique sword of the earth (1),Weapon,sword
+249,Majestic cheese (1),Consumable,cheese
+250,Majestic leggings of the zephyr (3),Armor,leggings
+251,Unique breastplate of accuracy (1),Armor,breastplate
+252,Swift breastplate of imaginaton (1),Armor,breastplate
+253,Godly breastplate of night (1),Armor,breastplate
+254,Weak breastplate of ice (1),Armor,breastplate
+255,Heroic cake (1),Consumable,cake
+256,Old spear of lightning (1),Weapon,spear
+257,Dull beer (1),Consumable,beer
+258,Doley wand of the moon (2),Weapon,wand
+259,Pointless mace of accuracy (1),Weapon,mace
+260,Doley cake (1),Consumable,cake
+261,Unique gauntlets of the thief (1),Armor,gauntlets
+262,Heroic leggings of the stream (1),Armor,leggings
+263,Silly leggings of fire (1),Armor,leggings
+264,Godly helm of ice (1),Armor,helm
+265,Godly treads of the thief (1),Armor,treads
+266,Silly sword of the elements (1),Weapon,sword
+267,Sharp cherry (1),Consumable,cherry
+268,Epic cake (1),Consumable,cake
+269,Weak breastplate of the moon (3),Armor,breastplate
+270,Bendy wand of the gods (1),Weapon,wand
+271,Old mana potion (1),Consumable,mana_potion
+272,Random breastplate of winter (1),Armor,breastplate
+273,Godly helm of lightning (1),Armor,helm
+274,Great treads of the raider (1),Armor,treads
+275,Doley gauntlets of the raider (1),Armor,gauntlets
+276,Weak leggings of accuracy (1),Armor,leggings
+277,Swift leggings of the mountain (3),Armor,leggings
+278,Sharp sword of night (3),Weapon,sword
+279,Godly bow of the raider (1),Weapon,bow
+280,Bendy leggings of the zephyr (3),Armor,leggings
+281,Silly mace of the earth (1),Weapon,mace
+282,Great leggings of winter (2),Armor,leggings
+283,Majestic helm of ice (1),Armor,helm
+284,Unique gauntlets of night (1),Armor,gauntlets
+285,Dull gauntlets of the elements (2),Armor,gauntlets
+286,Great treads of the stream (3),Armor,treads
+287,Santa's treads of accuracy (2),Armor,treads
+288,Old mace of the joker (1),Weapon,mace
+289,Godly gauntlets of winter (1),Armor,gauntlets
+290,Sharp helm of the unicorn (1),Armor,helm
+291,Great wand of the moon (2),Weapon,wand
+292,Pathetic helm of the storm (1),Armor,helm
+293,Old breastplate of the storm (1),Armor,breastplate
+294,Pathetic treads of ice (1),Armor,treads
+295,Majestic apple (1),Consumable,apple
+296,Sharp mace of winter (3),Weapon,mace
+297,Unique breastplate of night (2),Armor,breastplate
+298,Godly breastplate of the raider (3),Armor,breastplate
+299,Great sword of the unicorn (1),Weapon,sword
+300,Weak treads of ice (1),Armor,treads
+301,Powerful treads of the unicorn (1),Armor,treads
+302,Doley helm of fire (1),Armor,helm
+303,Old treads of fire (2),Armor,treads
+304,Majestic helm of accuracy (1),Armor,helm
+305,Sharp crossbow of the mountain (2),Weapon,crossbow
+306,Silly leggings of fire (3),Armor,leggings
+307,Doley gauntlets of ice (1),Armor,gauntlets
+308,Powerful leggings of the moon (1),Armor,leggings
+309,Pointless sword of the unicorn (1),Weapon,sword
+310,Epic gauntlets of winter (2),Armor,gauntlets
+311,Dull treads of the zephyr (1),Armor,treads
+312,Godly leggings of power (2),Armor,leggings
+313,Epic leggings of imaginaton (1),Armor,leggings
+314,Great helm of power (3),Armor,helm
+315,Random spear of the gods (1),Weapon,spear
+316,Pointless milk (1),Consumable,milk
+317,Swift treads of power (3),Armor,treads
+318,Powerful sword of the earth (3),Weapon,sword
+319,Pointless leggings of fire (1),Armor,leggings
+320,Bendy treads of the raider (3),Armor,treads
+321,Weak gauntlets of accuracy (1),Armor,gauntlets
+322,Swift gauntlets of the elements (1),Armor,gauntlets
+323,Majestic breastplate of the joker (1),Armor,breastplate
+324,Silly breastplate of the moon (1),Armor,breastplate
+325,Weak breastplate of the joker (1),Armor,breastplate
+326,Swift orange (1),Consumable,orange
+327,Bendy leggings of the gods (3),Armor,leggings
+328,Godly mace of accuracy (2),Weapon,mace
+329,Pathetic orange (1),Consumable,orange
+330,Heroic gauntlets of the thief (1),Armor,gauntlets
+331,Random gauntlets of lightning (1),Armor,gauntlets
+332,Doley gauntlets of ice (2),Armor,gauntlets
+333,Santa's leggings of the moon (1),Armor,leggings
+334,Old sword of the earth (1),Weapon,sword
+335,Doley axe of the unicorn (1),Weapon,axe
+336,Bendy crossbow of the thief (1),Weapon,crossbow
+337,Santa's treads of the elements (2),Armor,treads
+338,Great leggings of imaginaton (1),Armor,leggings
+339,Powerful leggings of winter (3),Armor,leggings
+340,Unique beer (1),Consumable,beer
+341,Santa's breastplate of fire (1),Armor,breastplate
+342,Old beer (1),Consumable,beer
+343,Doley gauntlets of fire (2),Armor,gauntlets
+344,Random spear of the raider (1),Weapon,spear
+345,Pointless mana potion (1),Consumable,mana_potion
+346,Heroic leggings of power (3),Armor,leggings
+347,Bendy helm of accuracy (3),Armor,helm
+348,Doley helm of lightning (1),Armor,helm
+349,Great leggings of night (1),Armor,leggings
+350,Santa's leggings of the stream (2),Armor,leggings
+351,Pathetic bread (1),Consumable,bread
+352,Heroic staff of the raider (3),Weapon,staff
+353,Godly milk (1),Consumable,milk
+354,Dull leggings of accuracy (1),Armor,leggings
+355,Pointless staff of imaginaton (1),Weapon,staff
+356,Godly apple (1),Consumable,apple
+357,Sharp breastplate of night (2),Armor,breastplate
+358,Heroic leggings of the zephyr (1),Armor,leggings
+359,Silly helm of night (1),Armor,helm
+360,Dull breastplate of the thief (1),Armor,breastplate
+361,Weak gauntlets of the mountain (1),Armor,gauntlets
+362,Epic leggings of the stream (3),Armor,leggings
+363,Doley sword of the zephyr (1),Weapon,sword
+364,Majestic leggings of ice (3),Armor,leggings
+365,Epic wand of night (1),Weapon,wand
+366,Epic health potion (1),Consumable,health_potion
+367,Unique leggings of the thief (1),Armor,leggings
+368,Bendy breastplate of the gods (2),Armor,breastplate
+369,Dull leggings of the thief (1),Armor,leggings
+370,Heroic treads of the stream (1),Armor,treads
+371,Bendy gauntlets of the earth (1),Armor,gauntlets
+372,Dull mana potion (1),Consumable,mana_potion
+373,Random helm of the stream (2),Armor,helm
+374,Silly crossbow of imaginaton (1),Weapon,crossbow
+375,Doley spear of the earth (1),Weapon,spear
+376,Unique cheese (1),Consumable,cheese
+377,Doley helm of the earth (2),Armor,helm
+378,Great helm of accuracy (3),Armor,helm
+379,Doley breastplate of the earth (1),Armor,breastplate
+380,Sharp leggings of the mountain (1),Armor,leggings
+381,Doley treads of the thief (1),Armor,treads
+382,Pathetic breastplate of lightning (3),Armor,breastplate
+383,Bendy spear of the gods (1),Weapon,spear
+384,Powerful orange (1),Consumable,orange
+385,Santa's helm of lightning (2),Armor,helm
+386,Epic bow of the stream (1),Weapon,bow
+387,Great cake (1),Consumable,cake
+388,Pointless breastplate of ice (3),Armor,breastplate
+389,Pointless wand of fire (1),Weapon,wand
+390,Pointless bread (1),Consumable,bread
+391,Doley treads of fire (3),Armor,treads
+392,Powerful gauntlets of night (1),Armor,gauntlets
+393,Unique leggings of the gods (1),Armor,leggings
+394,Great gauntlets of the moon (3),Armor,gauntlets
+395,Bendy spear of the elements (1),Weapon,spear
+396,Unique cherry (1),Consumable,cherry
+397,Godly gauntlets of ice (1),Armor,gauntlets
+398,Santa's leggings of ice (1),Armor,leggings
+399,Dull helm of accuracy (1),Armor,helm
+400,Random treads of the earth (1),Armor,treads
+401,Heroic treads of the thief (3),Armor,treads
+402,Swift crossbow of accuracy (1),Weapon,crossbow
+403,Godly water (1),Consumable,water
+404,Pointless treads of the earth (1),Armor,treads
+405,Powerful bow of winter (1),Weapon,bow
+406,Majestic crossbow of the mountain (1),Weapon,crossbow
+407,Pathetic beer (1),Consumable,beer
+408,Great gauntlets of the mountain (3),Armor,gauntlets
+409,Doley breastplate of the joker (3),Armor,breastplate
+410,Pointless breastplate of accuracy (2),Armor,breastplate
+411,Weak gauntlets of night (2),Armor,gauntlets
+412,Silly leggings of lightning (1),Armor,leggings
+413,Heroic mace of the gods (1),Weapon,mace
+414,Silly apple (1),Consumable,apple
+415,Majestic treads of the gods (1),Armor,treads
+416,Santa's treads of the joker (1),Armor,treads
+417,Heroic wand of the zephyr (1),Weapon,wand
+418,Dull orange (1),Consumable,orange
+419,Santa's helm of ice (1),Armor,helm
+420,Unique breastplate of lightning (1),Armor,breastplate
+421,Epic leggings of night (1),Armor,leggings
+422,Pointless treads of the thief (1),Armor,treads
+423,Old helm of the earth (3),Armor,helm
+424,Unique mace of the stream (1),Weapon,mace
+425,Santa's bread (1),Consumable,bread
+426,Dull bow of ice (1),Weapon,bow
+427,Dull breastplate of ice (2),Armor,breastplate
+428,Old breastplate of accuracy (1),Armor,breastplate
+429,Unique helm of night (1),Armor,helm
+430,Dull helm of the stream (1),Armor,helm
+431,Epic leggings of the zephyr (3),Armor,leggings
+432,Majestic mana potion (1),Consumable,mana_potion
+433,Old apple (1),Consumable,apple
+434,Santa's spear of the joker (1),Weapon,spear
+435,Epic wand of the mountain (1),Weapon,wand
+436,Silly bow of the zephyr (1),Weapon,bow
+437,Dull cheese (1),Consumable,cheese
+438,Epic helm of the mountain (3),Armor,helm
+439,Pathetic helm of the gods (1),Armor,helm
+440,Swift leggings of the zephyr (1),Armor,leggings
+441,Swift breastplate of the joker (1),Armor,breastplate
+442,Majestic wand of the thief (1),Weapon,wand
+443,Pathetic mace of the raider (1),Weapon,mace
+444,Heroic crossbow of the moon (1),Weapon,crossbow
+445,Powerful crossbow of night (1),Weapon,crossbow
+446,Weak orange (1),Consumable,orange
+447,Unique helm of the raider (1),Armor,helm
+448,Dull helm of the joker (1),Armor,helm
+449,Silly leggings of the elements (1),Armor,leggings
+450,Pathetic gauntlets of the earth (1),Armor,gauntlets
+451,Epic staff of the gods (1),Weapon,staff
+452,Swift cake (1),Consumable,cake
+453,Majestic gauntlets of ice (1),Armor,gauntlets
+454,Bendy mana potion (1),Consumable,mana_potion
+455,Santa's bow of the storm (1),Weapon,bow
+456,Doley orange (1),Consumable,orange
+457,Weak leggings of power (2),Armor,leggings
+458,Silly breastplate of the unicorn (1),Armor,breastplate
+459,Old treads of the joker (1),Armor,treads
+460,Epic leggings of the unicorn (3),Armor,leggings
+461,Weak breastplate of night (2),Armor,breastplate
+462,Random crossbow of accuracy (1),Weapon,crossbow
+463,Unique orange (1),Consumable,orange
+464,Random water (1),Consumable,water
+465,Old leggings of the raider (1),Armor,leggings
+466,Weak wand of night (1),Weapon,wand
+467,Bendy water (1),Consumable,water
+468,Majestic leggings of the raider (1),Armor,leggings
+469,Powerful leggings of lightning (2),Armor,leggings
+470,Pointless gauntlets of the moon (3),Armor,gauntlets
+471,Silly helm of power (1),Armor,helm
+472,Heroic helm of lightning (1),Armor,helm
+473,Heroic breastplate of the storm (1),Armor,breastplate
+474,Weak bow of winter (1),Weapon,bow
+475,Epic crossbow of the moon (1),Weapon,crossbow
+476,Sharp sword of the earth (1),Weapon,sword
+477,Heroic mana potion (1),Consumable,mana_potion
+478,Epic leggings of the zephyr (1),Armor,leggings
+479,Old breastplate of the earth (3),Armor,breastplate
+480,Powerful gauntlets of the earth (2),Armor,gauntlets
+481,Majestic gauntlets of the gods (1),Armor,gauntlets
+482,Doley treads of ice (1),Armor,treads
+483,Heroic bow of the stream (1),Weapon,bow
+484,Pointless staff of lightning (1),Weapon,staff
+485,Random cake (1),Consumable,cake
+486,Godly gauntlets of accuracy (2),Armor,gauntlets
+487,Pathetic leggings of lightning (1),Armor,leggings
+488,Swift treads of the zephyr (1),Armor,treads
+489,Bendy gauntlets of the storm (3),Armor,gauntlets
+490,Godly breastplate of winter (1),Armor,breastplate
+491,Godly staff of the thief (1),Weapon,staff
+492,Silly breastplate of the mountain (1),Armor,breastplate
+493,Heroic beer (1),Consumable,beer
+494,Swift cheese (1),Consumable,cheese
+495,Pathetic wand of the unicorn (1),Weapon,wand
+496,Great helm of the thief (1),Armor,helm
+497,Pointless helm of the zephyr (2),Armor,helm
+498,Santa's gauntlets of winter (1),Armor,gauntlets
+499,Majestic breastplate of imaginaton (1),Armor,breastplate
+500,Weak gauntlets of lightning (1),Armor,gauntlets
+501,Majestic breastplate of the stream (1),Armor,breastplate
+502,Majestic breastplate of power (1),Armor,breastplate
+503,Dull axe of the elements (1),Weapon,axe
+504,Godly sword of ice (1),Weapon,sword
+505,Great bow of fire (1),Weapon,bow
+506,Swift health potion (1),Consumable,health_potion
+507,Santa's leggings of the thief (1),Armor,leggings
+508,Godly treads of the stream (1),Armor,treads
+509,Old helm of the zephyr (1),Armor,helm
+510,Old helm of ice (1),Armor,helm
+511,Pointless gauntlets of the gods (2),Armor,gauntlets
+512,Majestic sword of night (1),Weapon,sword
+513,Pathetic water (1),Consumable,water
+514,Heroic sword of the joker (1),Weapon,sword
+515,Swift staff of fire (1),Weapon,staff
+516,Dull treads of lightning (3),Armor,treads
+517,Dull breastplate of power (2),Armor,breastplate
+518,Majestic breastplate of the thief (3),Armor,breastplate
+519,Dull leggings of the elements (1),Armor,leggings
+520,Dull helm of lightning (1),Armor,helm
+521,Godly cherry (1),Consumable,cherry
+522,Doley gauntlets of the thief (2),Armor,gauntlets
+523,Pathetic breastplate of the stream (1),Armor,breastplate
+524,Bendy health potion (1),Consumable,health_potion

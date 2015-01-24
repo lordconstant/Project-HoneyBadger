@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Testing|Win32">
+      <Configuration>Testing</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E28E0D2-1AAA-4FB8-9D4A-2153AE5D1B75}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SDL_Game_Framework</RootNamespace>
+    <ProjectName>Game</ProjectName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Testing|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Testing|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)</OutDir>
+    <IntDir>$(Configuration)</IntDir>
+    <IncludePath>$(VCInstallDir)UnitTest\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VCInstallDir)UnitTest\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Testing|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..</OutDir>
+    <IntDir>..</IntDir>
+    <IncludePath>$(VCInstallDir)UnitTest\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VCInstallDir)UnitTest\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <OutDir>..\..\releaseFolder</OutDir>
+    <IntDir>..\..\releaseFolder</IntDir>
+    <TargetName>ProjHB</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <BrowseInformation>true</BrowseInformation>
+      <AdditionalIncludeDirectories>$(SolutionDir)/UnitTest++/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sdl.lib;sdlmain.lib;sdl_image.lib;sdl_mixer.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Testing|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <BrowseInformation>true</BrowseInformation>
+      <AdditionalIncludeDirectories>D:\_work\Visual Studio\Project Honeybadger\UnitTest++\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sdl.lib;sdlmain.lib;sdl_image.lib;sdl_mixer.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BrowseInformation>true</BrowseInformation>
+      <AdditionalIncludeDirectories>D:\_work\Visual Studio\Project Honeybadger\UnitTest++\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sdl.lib;sdlmain.lib;sdl_image.lib;sdl_mixer.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Outputs>
+      </Outputs>
+      <Inputs>%(Inputs)</Inputs>
+    </CustomBuildStep>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\UnitTest++\src\AssertException.h" />
+    <ClInclude Include="..\UnitTest++\src\CheckMacros.h" />
+    <ClInclude Include="..\UnitTest++\src\Checks.h" />
+    <ClInclude Include="..\UnitTest++\src\Config.h" />
+    <ClInclude Include="..\UnitTest++\src\CurrentTest.h" />
+    <ClInclude Include="..\UnitTest++\src\DeferredTestReporter.h" />
+    <ClInclude Include="..\UnitTest++\src\DeferredTestResult.h" />
+    <ClInclude Include="..\UnitTest++\src\ExecuteTest.h" />
+    <ClInclude Include="..\UnitTest++\src\MemoryOutStream.h" />
+    <ClInclude Include="..\UnitTest++\src\ReportAssert.h" />
+    <ClInclude Include="..\UnitTest++\src\Test.h" />
+    <ClInclude Include="..\UnitTest++\src\TestDetails.h" />
+    <ClInclude Include="..\UnitTest++\src\TestList.h" />
+    <ClInclude Include="..\UnitTest++\src\TestMacros.h" />
+    <ClInclude Include="..\UnitTest++\src\TestReporter.h" />
+    <ClInclude Include="..\UnitTest++\src\TestReporterStdout.h" />
+    <ClInclude Include="..\UnitTest++\src\TestResults.h" />
+    <ClInclude Include="..\UnitTest++\src\TestRunner.h" />
+    <ClInclude Include="..\UnitTest++\src\TestSuite.h" />
+    <ClInclude Include="..\UnitTest++\src\TimeConstraint.h" />
+    <ClInclude Include="..\UnitTest++\src\TimeHelpers.h" />
+    <ClInclude Include="..\UnitTest++\src\UnitTest++.h" />
+    <ClInclude Include="..\UnitTest++\src\XmlTestReporter.h" />
+    <ClInclude Include="Armor.h" />
+    <ClInclude Include="audiomanager.h" />
+    <ClInclude Include="AWFont.h" />
+    <ClInclude Include="AWSprite.h" />
+    <ClInclude Include="EscortQuest.h" />
+    <ClInclude Include="ExploreQuest.h" />
+    <ClInclude Include="GUIButton.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Chunk.h" />
+    <ClInclude Include="console.h" />
+    <ClInclude Include="Consumable.h" />
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameBase.h" />
+    <ClInclude Include="GUI.h" />
+    <ClInclude Include="GUIBox.h" />
+    <ClInclude Include="GUIDropDown.h" />
+    <ClInclude Include="GUIElement.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryNode.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemDatabase.h" />
+    <ClInclude Include="ItemDesigner.h" />
+    <ClInclude Include="KillQuest.h" />
+    <ClInclude Include="Landscape.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="LootQuest.h" />
+    <ClInclude Include="Npc.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerDisplay.h" />
+    <ClInclude Include="Quest.h" />
+    <ClInclude Include="QuestHandler.h" />
+    <ClInclude Include="random.h" />
+    <ClInclude Include="MenuScreen.h" />
+    <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="SDL.h" />
+    <ClInclude Include="SDL_events.h" />
+    <ClInclude Include="SDL_image.h" />
+    <ClInclude Include="SDL_keysym.h" />
+    <ClInclude Include="SDL_mouse.h" />
+    <ClInclude Include="smanip.h" />
+    <ClInclude Include="TestAll.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WorldConst.h" />
+    <ClInclude Include="WorldData.h" />
+    <ClInclude Include="WorldManager.h" />
+    <ClInclude Include="Zone.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\UnitTest++\src\AssertException.cpp" />
+    <ClCompile Include="..\UnitTest++\src\Checks.cpp" />
+    <ClCompile Include="..\UnitTest++\src\CurrentTest.cpp" />
+    <ClCompile Include="..\UnitTest++\src\DeferredTestReporter.cpp" />
+    <ClCompile Include="..\UnitTest++\src\DeferredTestResult.cpp" />
+    <ClCompile Include="..\UnitTest++\src\MemoryOutStream.cpp" />
+    <ClCompile Include="..\UnitTest++\src\ReportAssert.cpp" />
+    <ClCompile Include="..\UnitTest++\src\Test.cpp" />
+    <ClCompile Include="..\UnitTest++\src\TestDetails.cpp" />
+    <ClCompile Include="..\UnitTest++\src\TestList.cpp" />
+    <ClCompile Include="..\UnitTest++\src\TestReporter.cpp" />
+    <ClCompile Include="..\UnitTest++\src\TestReporterStdout.cpp" />
+    <ClCompile Include="..\UnitTest++\src\TestResults.cpp" />
+    <ClCompile Include="..\UnitTest++\src\TestRunner.cpp" />
+    <ClCompile Include="..\UnitTest++\src\TimeConstraint.cpp" />
+    <ClCompile Include="..\UnitTest++\src\TimeHelpers.cpp" />
+    <ClCompile Include="..\UnitTest++\src\XmlTestReporter.cpp" />
+    <ClCompile Include="audiomanager.cpp" />
+    <ClCompile Include="AWSprite.cpp" />
+    <ClCompile Include="EscortQuest.cpp" />
+    <ClCompile Include="ExploreQuest.cpp" />
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="GUIButton.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Chunk.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameBase.cpp" />
+    <ClCompile Include="GUIBox.cpp" />
+    <ClCompile Include="GUIDropDown.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemDatabase.cpp" />
+    <ClCompile Include="ItemDesigner.cpp" />
+    <ClCompile Include="KillQuest.cpp" />
+    <ClCompile Include="Landscape.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="LootQuest.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MenuScreen.cpp" />
+    <ClCompile Include="Npc.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerDisplay.cpp" />
+    <ClCompile Include="Quest.cpp" />
+    <ClCompile Include="QuestHandler.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
+    <ClCompile Include="TestAll.cpp" />
+    <ClCompile Include="TestCamera.cpp" />
+    <ClCompile Include="TestChunk.cpp" />
+    <ClCompile Include="TestEscortQuest.cpp" />
+    <ClCompile Include="TestExploreQuest.cpp" />
+    <ClCompile Include="TestGUI.cpp" />
+    <ClCompile Include="TestGUIBox.cpp" />
+    <ClCompile Include="TestGUIButton.cpp" />
+    <ClCompile Include="TestGUIDropDown.cpp" />
+    <ClCompile Include="TestItemDesigner.cpp" />
+    <ClCompile Include="TestKillQuest.cpp" />
+    <ClCompile Include="TestLandscape.cpp" />
+    <ClCompile Include="TestLootQuest.cpp" />
+    <ClCompile Include="TestNpc.cpp" />
+    <ClCompile Include="TestPlayer.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\_work\Visual Studio\Project Honeybadger\UnitTest++\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="TestTile.cpp" />
+    <ClCompile Include="TestWorldData.cpp" />
+    <ClCompile Include="TestWorldManager.cpp" />
+    <ClCompile Include="TestZone.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="WorldData.cpp" />
+    <ClCompile Include="WorldManager.cpp" />
+    <ClCompile Include="Zone.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\framework">
+      <UniqueIdentifier>{511f85d4-1204-4dbe-8660-d85dee3280eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework">
+      <UniqueIdentifier>{78eefac5-c651-4fd2-aa6c-94aa9e98ba69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{7893c12e-9201-48c8-8552-f3cdddc4ea0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World">
+      <UniqueIdentifier>{92532937-8e38-4e07-bd22-f866c8665690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Items">
+      <UniqueIdentifier>{8c4d7343-049c-41da-be8c-49ddd443c2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Items">
+      <UniqueIdentifier>{e977d105-775d-42b2-a3f6-1423655f455a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTest++">
+      <UniqueIdentifier>{84e4eb7b-ed08-4089-b331-f48ca79e46de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestFiles">
+      <UniqueIdentifier>{3d023364-838d-4639-9031-69b4a27c507f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{587a0a11-2c63-45a3-8da7-7fe2b5086e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{ce1e0cf8-2995-442c-a0e3-4a8550a67262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Inventory">
+      <UniqueIdentifier>{09f5d709-9576-4410-a2cf-471889f77b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestFiles\Items">
+      <UniqueIdentifier>{ceaa52cf-8cc4-4d4f-b6cd-3deb82d2b6f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Quests">
+      <UniqueIdentifier>{dda83f5b-46cf-4449-b608-7655a8db9ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Quests">
+      <UniqueIdentifier>{970eb140-865b-4586-8108-5c8b8b25c357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestFiles\GUI">
+      <UniqueIdentifier>{a456c6bc-fa0c-4e42-9941-18513cef94ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestFiles\World">
+      <UniqueIdentifier>{13fc631f-1adf-4254-8264-1b413726c7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestFiles\Quests">
+      <UniqueIdentifier>{9f2168fa-d546-41ac-9745-b77aa903d3fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audiomanager.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="AWFont.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="AWSprite.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_image.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="smanip.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_events.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_keysym.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_mouse.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldData.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldConst.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zone.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Consumable.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDatabase.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDesigner.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\AssertException.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\CheckMacros.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\Checks.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\Config.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\CurrentTest.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\DeferredTestReporter.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\DeferredTestResult.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\ExecuteTest.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\MemoryOutStream.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\ReportAssert.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\Test.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\TestDetails.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\TestList.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\TestMacros.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\TestReporter.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\TestReporterStdout.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\TestResults.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\TestRunner.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\TestSuite.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\TimeConstraint.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\TimeHelpers.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\UnitTest++.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UnitTest++\src\XmlTestReporter.h">
+      <Filter>UnitTest++</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIButton.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIBox.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIElement.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIDropDown.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAll.h">
+      <Filter>TestFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryNode.h">
+      <Filter>Header Files\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EscortQuest.h">
+      <Filter>Header Files\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="ExploreQuest.h">
+      <Filter>Header Files\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="KillQuest.h">
+      <Filter>Header Files\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="LootQuest.h">
+      <Filter>Header Files\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestHandler.h">
+      <Filter>Header Files\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.h">
+      <Filter>Header Files\Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameBase.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="AWSprite.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="audiomanager.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldData.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDatabase.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDesigner.cpp">
+      <Filter>Source Files\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\AssertException.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\Checks.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\CurrentTest.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\DeferredTestReporter.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\DeferredTestResult.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\MemoryOutStream.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\ReportAssert.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\Test.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\TestDetails.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\TestList.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\TestReporter.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\TestReporterStdout.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\TestResults.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\TestRunner.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\TimeConstraint.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\TimeHelpers.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UnitTest++\src\XmlTestReporter.cpp">
+      <Filter>UnitTest++</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPlayer.cpp">
+      <Filter>TestFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIButton.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIBox.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIDropDown.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAll.cpp">
+      <Filter>TestFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemDesigner.cpp">
+      <Filter>TestFiles\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="EscortQuest.cpp">
+      <Filter>Source Files\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="ExploreQuest.cpp">
+      <Filter>Source Files\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="KillQuest.cpp">
+      <Filter>Source Files\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="LootQuest.cpp">
+      <Filter>Source Files\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest.cpp">
+      <Filter>Source Files\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestHandler.cpp">
+      <Filter>Source Files\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGUI.cpp">
+      <Filter>TestFiles\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGUIBox.cpp">
+      <Filter>TestFiles\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGUIButton.cpp">
+      <Filter>TestFiles\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGUIDropDown.cpp">
+      <Filter>TestFiles\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TestChunk.cpp">
+      <Filter>TestFiles\World</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLandscape.cpp">
+      <Filter>TestFiles\World</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTile.cpp">
+      <Filter>TestFiles\World</Filter>
+    </ClCompile>
+    <ClCompile Include="TestWorldData.cpp">
+      <Filter>TestFiles\World</Filter>
+    </ClCompile>
+    <ClCompile Include="TestWorldManager.cpp">
+      <Filter>TestFiles\World</Filter>
+    </ClCompile>
+    <ClCompile Include="TestZone.cpp">
+      <Filter>TestFiles\World</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCamera.cpp">
+      <Filter>TestFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TestEscortQuest.cpp">
+      <Filter>TestFiles\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestExploreQuest.cpp">
+      <Filter>TestFiles\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestKillQuest.cpp">
+      <Filter>TestFiles\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLootQuest.cpp">
+      <Filter>TestFiles\Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestNpc.cpp">
+      <Filter>TestFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
